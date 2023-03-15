@@ -1,87 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-	<title>NLT DIY</title>
-	<link rel="shortcut icon" href="favicon.ico">
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="author" content="Forni">
-	<meta name="description" content="Exercise Frontend Dev from the website diy.org">
+  <title>NLT DIY</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="author" content="Forni">
+  <meta name="description" content="Exercise Frontend Dev from the website diy.org">
 
-	<!-- jQuery + javascript + css -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script type="text/javascript" src="script.js"></script>
-	<link type="text/css" rel="stylesheet" href="style.css">
+  <!-- jQuery + javascript + css -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  
+  <link rel="prefetch" href="/img/mineh.png" />
+  <link rel="prefetch" href="/img/mineb.png" />
+  <link rel="prefetch" href="/img/explosion.png" />
 </head>
 
 <body> <!-- content of the web-page, based on 4 slides -->
-	<div class="slide" id="slide-1">
-		<div class="container">
-			<a href="https://diy.org/skills/frontenddev" class="mlink"><img src="img/diy.png" alt="DIY">
-			<h1 id="title">DIY.org <span class="font-thin">challenge Frontend Dev</span></h1></a>
-			<br>
-			<h4 class="font-thin">Exercise made by</h4>
-			<h4>Forni B.</h4>
-			<div class="nav" slide="2">HTML</div>
-			<div class="nav" slide="3">Calculator</div>
-			<div class="nav" slide="4">Animation</div>
-		</div>
-	</div>
-	
-	
-	<div class="slide" id="slide-2">
-		<div class="container">
-			<div class="title-row">&#8249; HTML &#8250;</div>
-			<div class="subtitle-row">
-				<iframe id="source"></iframe><br><br><br>
-				<h3 class="font-thin">This website is create by writing in html, css and a bit of javascript! You can see the source code <a href="javascript:window.location='view-source:'+window.location.href">here</a>. The files are hosted on a free online host (<a href="http://en.altervista.org">altervista.org</a>).</h3>
-				<h5  class="font-thin">Challenges: "Create a Basic HTML Website", "Style your Website with CSS", "Host your Website".</h5>
-			</div>
-		</div>
-	</div>
-	
-	
-	<div class="slide" id="slide-3">
-		<div class="container">
-			<div class="title-row">Calculator in Javascript</div>
-			<div class="subtitle-row">
-				<div id="frogulator">
-					<div class="top">
-						<div class="calc-title">Frogulator v2.1</div>
-						<div class="screen"></div>
-					</div>
-					<div class="keys">
-						<span>MR</span><span>M-</span><span>M+</span><span>C</span>
-						<span>7</span><span>8</span><span>9</span><span>÷</span>
-						<span>4</span><span>5</span><span>6</span><span>×</span>
-						<span>1</span><span>2</span><span>3</span><span>-</span>
-						<span>0</span><span>.</span><span>=</span><span>+</span>
-					</div>
-				</div><br><br>
-				<h3 class="font-thin">How much is the product of the first 4 prime numbers divided by 5?<span id="O" style="visibility:hidden">&nbsp;&nbsp;&nbsp;&nbsp;:O</span></h3> 
-				<h5 class="font-thin">Challenges: "Make a Calculator with Javascript", "Flash Colors with JavaScript".</h5>
-			</div>
-		</div>
-	</div>
-	
-	
-	<div class="slide" id="slide-4">
-		<div class="container">
-			<div class="title-row">CSS animation</div>
-			<div class="row subtitle-row">
-				<label for="checkme"><input id="checkme" type="checkbox" hidden>
-					<img id="explosion" src="img/explosion.png" alt="BOOM">
-					<div id="turtle"></div>
-					<div id="block"></div>
-				</label>
-				<h3 class="font-thin">Attention Mine turtle!</h3>
-				<h5 class="font-thin">Challenges: "Animate with CSS".</h5>
-			</div>
-		</div>
-	</div>
-	
-	
-	<div class="slide"></div>
-	
+  <div class="slide" id="slide-1">
+    <div class="container">
+      <a href="https://diy.org/skills/frontenddev" class="mlink"><img src="img/diy.png" alt="DIY">
+      <h1 id="title">DIY.org <span class="font-thin">challenge Frontend Dev</span></h1></a>
+      <br>
+      <h4 class="font-thin">Exercise made by</h4>
+      <h4>Forni B.</h4>
+      <div class="nav" slide="2">HTML</div>
+      <div class="nav" slide="3">Calculator</div>
+      <div class="nav" slide="4">Animation</div>
+    </div>
+  </div>
+  
+  
+  <div class="slide" id="slide-2">
+    <div class="container">
+      <div class="title-row">&#8249; HTML &#8250;</div>
+      <div class="subtitle-row">
+        <iframe id="source"></iframe><br><br><br>
+        <h3 class="font-thin">This website is create by writing in html, css and a bit of javascript! You can see the source code <a href="javascript:window.location='view-source:'+window.location.href">here</a>. The files are hosted on <a href="https://pages.github.com/">Github Pages</a>.</h3>
+        <h5  class="font-thin">Challenges: "Create a Basic HTML Website", "Style your Website with CSS", "Host your Website".</h5>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="slide" id="slide-3">
+    <div class="container">
+      <div class="title-row">Calculator in Javascript</div>
+      <div class="subtitle-row">
+        <div id="frogulator">
+          <div class="top">
+            <div class="calc-title">Frogulator v2.1</div>
+            <div class="screen"></div>
+          </div>
+          <div class="keys">
+            <span>MR</span><span>M-</span><span>M+</span><span>C</span>
+            <span>7</span><span>8</span><span>9</span><span>÷</span>
+            <span>4</span><span>5</span><span>6</span><span>×</span>
+            <span>1</span><span>2</span><span>3</span><span>-</span>
+            <span>0</span><span>.</span><span>=</span><span>+</span>
+          </div>
+        </div><br><br>
+        <h3 class="font-thin">How much is the product of the first 4 prime numbers divided by 5?<span id="O" style="visibility:hidden">&nbsp;&nbsp;&nbsp;&nbsp;:O</span></h3> 
+        <h5 class="font-thin">Challenges: "Make a Calculator with Javascript", "Flash Colors with JavaScript".</h5>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="slide" id="slide-4">
+    <div class="container">
+      <div class="title-row">CSS animation</div>
+      <div class="row subtitle-row">
+        <label for="checkme"><input id="checkme" type="checkbox" hidden>
+          <img id="explosion" src="img/explosion.png" alt="BOOM">
+          <div id="turtle"></div>
+          <div id="block"></div>
+        </label>
+        <h3 class="font-thin">Attention Mine turtle!</h3>
+        <h5 class="font-thin">Challenges: "Animate with CSS".</h5>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="slide"></div>
+  
 </body>
 </html>
