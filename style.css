@@ -212,6 +212,6 @@ input:checked ~ #block {
 	transition: opacity 3s ease-out 1.4s;
 }
 body::after{ /* preload img */
-    /*position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-    content: url("img/mineh.png") url("img/mineb.png") url("img/explosion.png");*/
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content: url("img/mineh.png") url("img/mineb.png") url("img/explosion.png");
 }
